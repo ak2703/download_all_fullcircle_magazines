@@ -1,4 +1,4 @@
-# author : Akshay Vilekar
+# author : ak2703
 # Download all the issues of ubuntu magzines automatically
 
 import urllib
