@@ -1,5 +1,5 @@
 # author : ak2703
-# Download all the issues of ubuntu magzines automatically
+# Download all the issues of ubuntu magazines automatically
 
 import urllib
 import requests
@@ -8,7 +8,7 @@ import requests
 def download(url, name, count):
 
     # info about file
-    print "We are about to download " + "magzine number " + count
+    print "We are about to download " + "magazine number " + count
     size = requests.head(url).headers.get('content-length', None)
     # size in Megabytes
     size = str(round((int(size) / 1024.0 / 1024.0), 2))
