@@ -43,7 +43,7 @@ def download(url, name, count):
 
 
 def main():
-    for i in range(1, 92):
+    for i in range(1, 93):
         url = "http://dl.fullcirclemagazine.org/issue" + str(i) + "_en.pdf"
         name = "issue" + str(i) + "en.pdf"
         print download(url, name, str(i))
